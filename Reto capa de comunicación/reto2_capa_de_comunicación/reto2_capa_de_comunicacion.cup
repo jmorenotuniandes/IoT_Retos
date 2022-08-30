@@ -1,9 +1,9 @@
 CupCarbon v. IoT 5.0
 ----------------
-name:simulacion_17_nodos
+name:reto2_capa_de_comunicacion
 zoom:1
-centerposition_la:4.599137296038846
-centerposition_lo:-74.06005561351776
+centerposition_la:4.599303057516564
+centerposition_lo:-74.06001806259155
 map:0
 display_details:true
 draw_radio_links:true
