@@ -76,8 +76,19 @@ void receivedCallback(char* topic, byte* payload, unsigned int length) {
   Serial.print("Received [");
   Serial.print(topic);
   Serial.print("]: ");
+  String data = "";
   for (int i = 0; i < length; i++) {
-    Serial.print((char)payload[i]);
+    data += String((char)payload[i]);
+  }
+  Serial.print(data);
+  Serial.print("\n");
+  if (data.indexOf("ALERT") >= 0 {
+    alert = data;
+  }
+  if (data.indexOf("VARIACION") >= 0) {
+    digitalWrite(LED_PIN, HIGH)
+    Serial.print("Encendido");
+    delay(1000);
   }
 }
 
